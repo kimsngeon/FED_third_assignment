@@ -77,7 +77,7 @@ function App() {
         <h1>{i+1}/100</h1>
         <img src={imageUrl} alt="animal" style={{ maxHeight: 200 }} />
         <br />
-        <button onClick={() => saveImageUrl(imageUrl)}>invite home</button>
+        <button onClick={() => saveImageUrl(imageUrl)}>&nbsp;invite&nbsp;</button>
       </div>
     );
   });
